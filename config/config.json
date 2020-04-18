@@ -1,0 +1,4 @@
+{
+  "verifyCustomTokenUrl": "https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyCustomToken?key=",
+  "verifyPasswordUrl": "https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key="
+}
