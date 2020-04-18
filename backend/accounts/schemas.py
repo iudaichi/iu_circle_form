@@ -1,9 +1,7 @@
-from pydantic import BaseModel, EmailStr
+from pydantic import BaseModel, constr
 
 
 class User(BaseModel):
-    display_name: str
-    email: EmailStr
+    email: constr(regex=r'\d{2}im\d{4}@i-u.ac.jp')
     password: str
     email_verified: bool = False
-    phone_number: str = None
